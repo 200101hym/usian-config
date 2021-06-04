@@ -1,7 +1,2 @@
-spring:
-  cloud:
-    config:
-      name: usian-item-web #需要从github上读取的资源名称，注意没有yml后缀名
-      profile: dev   #本次访问的配置项
-      label: master
-      uri: http://127.0.0.1:3344  #配置中心的地址
+server.port=3344
+spring.cloud.config.server.git.uri=https://github.com/200101hym/usian-config.git
