@@ -1,2 +1,2 @@
 server.port=3344
-spring.cloud.config.server.git.uri=https://github.com/200101hym/usian-config.git
+spring.cloud.config.server.git.uri=
